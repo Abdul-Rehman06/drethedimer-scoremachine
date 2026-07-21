@@ -255,36 +255,12 @@ function LandingPage() {
           </div>
 
           {/* RIGHT */}
-          <div className="lg:col-span-5 relative reveal">
-            <div className="relative aspect-[4/5] rounded-3xl overflow-hidden grad-border shadow-[var(--shadow-neon)]">
-              <img
-                src="/assets/score-machine.png"
-                alt="Score Machine Dashboard"
-                className="absolute inset-0 w-full h-full object-contain p-4"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-              <img src="/assets/logo.png" alt="" className="absolute top-4 left-4 h-10 opacity-90" />
-            </div>
-
-            {/* Floating cards */}
-            <div className="hidden md:flex absolute -left-8 top-16 glass rounded-2xl p-4 float items-center gap-3 shadow-[var(--shadow-glass)]">
-              <div className="w-10 h-10 rounded-xl grid place-items-center bg-[#7C3AED]/20 text-[#7C3AED]">
-                <i className="fas fa-chart-line" />
-              </div>
-              <div>
-                <div className="text-[10px] uppercase text-muted-foreground tracking-widest">Profile Score</div>
-                <div className="font-display font-bold">Approvable</div>
-              </div>
-            </div>
-            <div className="hidden md:flex absolute -right-6 bottom-14 glass rounded-2xl p-4 float items-center gap-3 shadow-[var(--shadow-glass)]" style={{ animationDelay: "-3s" }}>
-              <div className="w-10 h-10 rounded-xl grid place-items-center bg-[#FF5A1F]/20 text-[#FF5A1F]">
-                <i className="fas fa-university" />
-              </div>
-              <div>
-                <div className="text-[10px] uppercase text-muted-foreground tracking-widest">Lender Match</div>
-                <div className="font-display font-bold">Tier 1 Ready</div>
-              </div>
-            </div>
+          <div className="lg:col-span-5 relative reveal flex items-center justify-center">
+            <img
+              src="/assets/score-machine.png"
+              alt="Score Machine Dashboard"
+              className="w-full h-auto object-contain drop-shadow-2xl"
+            />
           </div>
         </div>
       </section>
