@@ -257,12 +257,11 @@ function LandingPage() {
           {/* RIGHT */}
           <div className="lg:col-span-5 relative reveal">
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden grad-border shadow-[var(--shadow-neon)]">
-              <video
-                autoPlay muted loop playsInline poster="/assets/dre/image-14.jpg"
-                className="absolute inset-0 w-full h-full object-cover"
-              >
-                <source src="/assets/dre/video.mp4" type="video/mp4" />
-              </video>
+              <img
+                src="/assets/score-machine.png"
+                alt="Score Machine Dashboard"
+                className="absolute inset-0 w-full h-full object-contain p-4"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
               <img src="/assets/logo.png" alt="" className="absolute top-4 left-4 h-10 opacity-90" />
             </div>
